@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🍽️ Browse Menu</h1>
+    <nav>
+      <a href="cart.html">🛒 Cart</a>
+      <a href="index.html">Logout</a>
+    </nav>
+  </header>
+
+  <div class="menu-container">
+    <div class="menu-item">
+      <h3>Pizza</h3>
+      <p>Delicious cheesy pizza</p>
+      <button onclick="addToCart('Pizza')">Add to Cart</button>
+    </div>
+
+    <div class="menu-item">
+      <h3>Burger</h3>
+      <p>Juicy beef burger</p>
+      <button onclick="addToCart('Burger')">Add to Cart</button>
+    </div>
+
+    <div class="menu-item">
+      <h3>Pasta</h3>
+      <p>Creamy Alfredo pasta</p>
+      <button onclick="addToCart('Pasta')">Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
